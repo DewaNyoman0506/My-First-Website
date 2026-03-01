@@ -226,7 +226,7 @@ p1 {
 }
 
 body {
-  background-image: url('Background1.png');
+  background-image: url('Assets/Background1.png');
   background-size: cover;
   background-position: center;
   min-height: 100vh;
