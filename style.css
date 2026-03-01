@@ -36,11 +36,21 @@
   }
   .col-md-4 {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
   .col-md-4 img {
     width: 100%;
     max-width: 300px;
+  }
+
+  .link-body {
+    margin-top: 0.5rem;
+  }
+
+  .navbar-brand {
+    font-size: 1rem;
   }
 }
 
@@ -151,7 +161,6 @@ p1 {
 
 .link-body a {
   font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
   font-size: 1.2rem;
   display: block;
   text-align: center;
